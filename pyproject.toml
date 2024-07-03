@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "opencv-demos"
+version = "0.1.0"
+description = ""
+authors = ["yx <yangxue.cs@foxmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+opencv-python = "^4.10.0.84"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
